@@ -14,13 +14,14 @@ function verificarPrimo(){
         }
     }
      if (ehprimo){
-         resultadoElemento.textContent = numero + " é um numero primo.";
+         resultadoElemento.textContent = numero + " É um número primo.";
          resultadoElemento.style.color = "green";
      } else{
-        resultadoElemento.textContent = numero + " não é uma numero primo.";
+        resultadoElemento.textContent = numero + " Não é uma número primo.";
         resultadoElemento.style.color = "red";
      }
       document.getElementById("resultado")
      }
 
     
+
